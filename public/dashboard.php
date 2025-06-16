@@ -27,6 +27,8 @@ $user = $_SESSION['user'];
             <li><a href="attendance.php">Manage Attendance</a></li>
             <li><a href="leave.php">Approve Leaves</a></li>
             <li><a href="view_report.php">Employee Reports</a></li>
+            <li><a href="evaluation.php">Coaching</a></li>
+
         </ul>
     <?php else: ?>
         <ul>
@@ -36,6 +38,7 @@ $user = $_SESSION['user'];
             <li><a href="leave.php">My Leave Requests</a></li>
             <li><a href="payslip.php">My Payslips</a></li>
             <li><a href="report.php">Report to Admin</a></li>
+            <li><a href="evaluation.php">Coaching</a></li>
         </ul>
     <?php endif; ?>
 
